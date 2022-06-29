@@ -1,9 +1,17 @@
 body {
     background: #ccc;
+    font-family: Verdana;
+    max-width: 1080px;
+    margin: auto;
 }
 
 #title, .subtitle, .post_title {
     color: red;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .post_title {
@@ -13,13 +21,36 @@ body {
     margin-bottom: 15px;
 }
 
+.photo {
+    margin-bottom: 15px;
+    width: 20%;
+    height: 20%;
+    border: 1px solid #505050;
+    border-radius: 20%;
+}
+
 .post {
     background: #FFF;
-    padding: 10px;
+    padding: 15px;
     border: 3px solid #000;
+    margin-bottom: 15px;
+}
+
+.post_image {
+    margin-bottom: 15px;
+    width: 80%;
+    height: 80%;
 }
 
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.contacts_list {
+    list-style-type: none;
+    padding-left: 15px;
+
 }
